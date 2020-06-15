@@ -19,6 +19,7 @@
 		9FD85CFA249814A1006A8BA5 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD85CF9249814A1006A8BA5 /* OrderRowView.swift */; };
 		9FD85CFC24981571006A8BA5 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD85CFB24981571006A8BA5 /* MenuRowView.swift */; };
 		9FD85CFE2498191F006A8BA5 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD85CFD2498191F006A8BA5 /* RatingsView.swift */; };
+		9FD85D0024981D99006A8BA5 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD85CFF24981D99006A8BA5 /* PageTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9FD85CF9249814A1006A8BA5 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
 		9FD85CFB24981571006A8BA5 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
 		9FD85CFD2498191F006A8BA5 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		9FD85CFF24981D99006A8BA5 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +75,12 @@
 				9FC3632724929D9500394B54 /* AppDelegate.swift */,
 				9FC3632924929D9500394B54 /* SceneDelegate.swift */,
 				9FC3632B24929D9500394B54 /* ContentView.swift */,
+				9FD85CF724981201006A8BA5 /* ContentHeaderView.swift */,
+				9FD85CFF24981D99006A8BA5 /* PageTitleView.swift */,
 				9FC3632D24929D9600394B54 /* Assets.xcassets */,
 				9FC3633224929D9600394B54 /* LaunchScreen.storyboard */,
 				9FC3633524929D9600394B54 /* Info.plist */,
 				9FC3632F24929D9600394B54 /* Preview Content */,
-				9FD85CF724981201006A8BA5 /* ContentHeaderView.swift */,
 			);
 			path = HuliPizza;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				9FC3632824929D9500394B54 /* AppDelegate.swift in Sources */,
 				9FD85CF62498109E006A8BA5 /* MenuListView.swift in Sources */,
+				9FD85D0024981D99006A8BA5 /* PageTitleView.swift in Sources */,
 				9FD85CF324980F12006A8BA5 /* OrderListView.swift in Sources */,
 				9FD85CF824981201006A8BA5 /* ContentHeaderView.swift in Sources */,
 				9FD85CFE2498191F006A8BA5 /* RatingsView.swift in Sources */,
