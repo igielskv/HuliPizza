@@ -13,6 +13,7 @@
 		9FC3632E24929D9600394B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC3632D24929D9600394B54 /* Assets.xcassets */; };
 		9FC3633124929D9600394B54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC3633024929D9600394B54 /* Preview Assets.xcassets */; };
 		9FC3633424929D9600394B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC3633224929D9600394B54 /* LaunchScreen.storyboard */; };
+		9FCF4D70249A791D001D3F20 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF4D6F249A791D001D3F20 /* ListHeaderView.swift */; };
 		9FD85CF324980F12006A8BA5 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD85CF224980F12006A8BA5 /* OrderListView.swift */; };
 		9FD85CF62498109E006A8BA5 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD85CF52498109E006A8BA5 /* MenuListView.swift */; };
 		9FD85CF824981201006A8BA5 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD85CF724981201006A8BA5 /* ContentHeaderView.swift */; };
@@ -34,6 +35,7 @@
 		9FC3633024929D9600394B54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FC3633324929D9600394B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC3633524929D9600394B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCF4D6F249A791D001D3F20 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
 		9FD85CF224980F12006A8BA5 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		9FD85CF52498109E006A8BA5 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
 		9FD85CF724981201006A8BA5 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				9FC3632B24929D9500394B54 /* ContentView.swift */,
 				9FD85CF724981201006A8BA5 /* ContentHeaderView.swift */,
 				9FD85CFF24981D99006A8BA5 /* PageTitleView.swift */,
+				9FCF4D6F249A791D001D3F20 /* ListHeaderView.swift */,
 				9FC3632D24929D9600394B54 /* Assets.xcassets */,
 				9FC3633224929D9600394B54 /* LaunchScreen.storyboard */,
 				9FC3633524929D9600394B54 /* Info.plist */,
@@ -207,6 +210,7 @@
 				9FD85D082498222C006A8BA5 /* HistoryView.swift in Sources */,
 				9FD85CF324980F12006A8BA5 /* OrderListView.swift in Sources */,
 				9FD85CF824981201006A8BA5 /* ContentHeaderView.swift in Sources */,
+				9FCF4D70249A791D001D3F20 /* ListHeaderView.swift in Sources */,
 				9FD85CFE2498191F006A8BA5 /* RatingsView.swift in Sources */,
 				9FD85CFC24981571006A8BA5 /* MenuRowView.swift in Sources */,
 				9FC3632A24929D9500394B54 /* SceneDelegate.swift in Sources */,
