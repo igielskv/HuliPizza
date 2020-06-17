@@ -15,8 +15,10 @@ struct ListHeaderView: View {
         HStack {
             Text(text)
                 .padding(.leading, 5)
+                .foregroundColor(Color("G2"))
             Spacer()
         }
+        .background(/*@START_MENU_TOKEN@*/Color("G4")/*@END_MENU_TOKEN@*/)
     }
 }
 
