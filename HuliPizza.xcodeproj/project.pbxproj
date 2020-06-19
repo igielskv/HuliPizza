@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9F0DD6BD249CCA540054A88B /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DD6BC249CCA540054A88B /* SelectedImageView.swift */; };
+		9F70A78B249D5414006A3A95 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70A788249D5414006A3A95 /* OrderModel.swift */; };
+		9F70A78C249D5414006A3A95 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70A789249D5414006A3A95 /* HistoryModel.swift */; };
+		9F70A78D249D5414006A3A95 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70A78A249D5414006A3A95 /* MenuModel.swift */; };
 		9FC3632824929D9500394B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3632724929D9500394B54 /* AppDelegate.swift */; };
 		9FC3632A24929D9500394B54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3632924929D9500394B54 /* SceneDelegate.swift */; };
 		9FC3632C24929D9500394B54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3632B24929D9500394B54 /* ContentView.swift */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		9F0DD6BC249CCA540054A88B /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
+		9F70A788249D5414006A3A95 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		9F70A789249D5414006A3A95 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		9F70A78A249D5414006A3A95 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		9FC3632424929D9500394B54 /* HuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC3632724929D9500394B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC3632924929D9500394B54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F70A787249D53D2006A3A95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F70A789249D5414006A3A95 /* HistoryModel.swift */,
+				9F70A78A249D5414006A3A95 /* MenuModel.swift */,
+				9F70A788249D5414006A3A95 /* OrderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9FC3631B24929D9500394B54 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +96,7 @@
 		9FC3632624929D9500394B54 /* HuliPizza */ = {
 			isa = PBXGroup;
 			children = (
+				9F70A787249D53D2006A3A95 /* Model */,
 				9FD85D02249820A3006A8BA5 /* HistoryView */,
 				9FD85CF424981071006A8BA5 /* MenuView */,
 				9FD85CF124980EA0006A8BA5 /* OrderView */,
@@ -208,15 +225,18 @@
 			files = (
 				9FC3632824929D9500394B54 /* AppDelegate.swift in Sources */,
 				9FD85D04249820DB006A8BA5 /* HistoryRowView.swift in Sources */,
+				9F70A78D249D5414006A3A95 /* MenuModel.swift in Sources */,
 				9FD85CF62498109E006A8BA5 /* MenuListView.swift in Sources */,
 				9FD85D0024981D99006A8BA5 /* PageTitleView.swift in Sources */,
 				9FD85D082498222C006A8BA5 /* HistoryView.swift in Sources */,
 				9FD85CF324980F12006A8BA5 /* OrderListView.swift in Sources */,
 				9FD85CF824981201006A8BA5 /* ContentHeaderView.swift in Sources */,
 				9F0DD6BD249CCA540054A88B /* SelectedImageView.swift in Sources */,
+				9F70A78B249D5414006A3A95 /* OrderModel.swift in Sources */,
 				9FCF4D70249A791D001D3F20 /* ListHeaderView.swift in Sources */,
 				9FD85CFE2498191F006A8BA5 /* RatingsView.swift in Sources */,
 				9FD85CFC24981571006A8BA5 /* MenuRowView.swift in Sources */,
+				9F70A78C249D5414006A3A95 /* HistoryModel.swift in Sources */,
 				9FC3632A24929D9500394B54 /* SceneDelegate.swift in Sources */,
 				9FD85D06249821B6006A8BA5 /* HistoryListView.swift in Sources */,
 				9FD85CFA249814A1006A8BA5 /* OrderRowView.swift in Sources */,
