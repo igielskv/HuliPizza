@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F05C3B224A207FE002F3D04 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05C3B124A207FE002F3D04 /* HistoryDetailView.swift */; };
 		9F0DD6BD249CCA540054A88B /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DD6BC249CCA540054A88B /* SelectedImageView.swift */; };
 		9F70A78B249D5414006A3A95 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70A788249D5414006A3A95 /* OrderModel.swift */; };
 		9F70A78C249D5414006A3A95 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70A789249D5414006A3A95 /* HistoryModel.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F05C3B124A207FE002F3D04 /* HistoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
 		9F0DD6BC249CCA540054A88B /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
 		9F70A788249D5414006A3A95 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		9F70A789249D5414006A3A95 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		9FD85D02249820A3006A8BA5 /* HistoryView */ = {
 			isa = PBXGroup;
 			children = (
+				9F05C3B124A207FE002F3D04 /* HistoryDetailView.swift */,
 				9FD85D03249820DB006A8BA5 /* HistoryRowView.swift */,
 				9FD85D05249821B6006A8BA5 /* HistoryListView.swift */,
 				9FD85D072498222C006A8BA5 /* HistoryView.swift */,
@@ -228,6 +231,7 @@
 			files = (
 				9FC3632824929D9500394B54 /* AppDelegate.swift in Sources */,
 				9FD85D04249820DB006A8BA5 /* HistoryRowView.swift in Sources */,
+				9F05C3B224A207FE002F3D04 /* HistoryDetailView.swift in Sources */,
 				9F70A78F249D5CFB006A3A95 /* MenuDetailView.swift in Sources */,
 				9F70A78D249D5414006A3A95 /* MenuModel.swift in Sources */,
 				9FD85CF62498109E006A8BA5 /* MenuListView.swift in Sources */,
