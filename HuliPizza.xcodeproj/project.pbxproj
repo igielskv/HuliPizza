@@ -13,6 +13,7 @@
 		9F70A78C249D5414006A3A95 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70A789249D5414006A3A95 /* HistoryModel.swift */; };
 		9F70A78D249D5414006A3A95 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70A78A249D5414006A3A95 /* MenuModel.swift */; };
 		9F70A78F249D5CFB006A3A95 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70A78E249D5CFB006A3A95 /* MenuDetailView.swift */; };
+		9FB0808224A292CB007A63E5 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0808124A292CB007A63E5 /* RootTabView.swift */; };
 		9FC3632824929D9500394B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3632724929D9500394B54 /* AppDelegate.swift */; };
 		9FC3632A24929D9500394B54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3632924929D9500394B54 /* SceneDelegate.swift */; };
 		9FC3632C24929D9500394B54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3632B24929D9500394B54 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 		9F70A789249D5414006A3A95 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
 		9F70A78A249D5414006A3A95 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		9F70A78E249D5CFB006A3A95 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		9FB0808124A292CB007A63E5 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		9FC3632424929D9500394B54 /* HuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC3632724929D9500394B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC3632924929D9500394B54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				9FD85CFF24981D99006A8BA5 /* PageTitleView.swift */,
 				9FCF4D6F249A791D001D3F20 /* ListHeaderView.swift */,
 				9F0DD6BC249CCA540054A88B /* SelectedImageView.swift */,
+				9FB0808124A292CB007A63E5 /* RootTabView.swift */,
 				9FC3632D24929D9600394B54 /* Assets.xcassets */,
 				9FC3633224929D9600394B54 /* LaunchScreen.storyboard */,
 				9FC3633524929D9600394B54 /* Info.plist */,
@@ -236,6 +239,7 @@
 				9F70A78D249D5414006A3A95 /* MenuModel.swift in Sources */,
 				9FD85CF62498109E006A8BA5 /* MenuListView.swift in Sources */,
 				9FD85D0024981D99006A8BA5 /* PageTitleView.swift in Sources */,
+				9FB0808224A292CB007A63E5 /* RootTabView.swift in Sources */,
 				9FD85D082498222C006A8BA5 /* HistoryView.swift in Sources */,
 				9FD85CF324980F12006A8BA5 /* OrderListView.swift in Sources */,
 				9FD85CF824981201006A8BA5 /* ContentHeaderView.swift in Sources */,
