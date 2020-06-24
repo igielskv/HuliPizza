@@ -12,15 +12,16 @@ struct MenuDetailView: View {
     @EnvironmentObject var settings: UserPreferences
     @ObservedObject var orderModel: OrderModel
     @State var didOrder = false
+    @State var quantity = 1
     
     var menuItem:MenuItem
     
     var formattedPrice:String{
-        String(format:"%3.2f",menuItem.price)
+        String(format: "%3.2f", menuItem.price * Double(quantity))
     }
     
     func addItem(){
-//        orderModel.add(menuID: menuItem.id)
+        //        orderModel.add(menuID: menuItem.id)
         didOrder = true
     }
     
@@ -35,7 +36,7 @@ struct MenuDetailView: View {
                 .lineLimit(5)
                 .padding()
                 .layoutPriority(3)
-                
+            
             Spacer()
             HStack{
                 Spacer()
@@ -43,13 +44,19 @@ struct MenuDetailView: View {
                 Text(settings.size.formatted())
             }
             .font(.headline)
-            HStack{
-                Text("Quantity:")
-                Text("1")
+            Stepper(value: $quantity, in: 1...10) {
+                Text("Quantity: \(quantity)")
                     .bold()
-                Spacer()
             }
-            .padding()
+            /*
+             HStack{
+             Text("Quantity:")
+             Text("1")
+             .bold()
+             Spacer()
+             }
+             .padding()
+             */
             HStack{
                 Text("Order:  \(formattedPrice)")
                     .font(.headline)
@@ -75,7 +82,7 @@ struct MenuDetailView: View {
                      }
                      */
                     .sheet(isPresented: $didOrder) {
-                        ConfirmView(menuID: self.menuItem.id, isPresented: self.$didOrder, orderModel: self.orderModel)
+                        ConfirmView(menuID: self.menuItem.id, isPresented: self.$didOrder, orderModel: self.orderModel, quantity: self.$quantity)
                 }
                 Spacer()
             }
