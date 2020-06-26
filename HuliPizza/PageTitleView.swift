@@ -20,10 +20,13 @@ struct PageTitleView: View {
                 .fontWeight(.heavy)
                 .padding(.trailing)
         }
-        .overlay(Image(systemName: isDisplayingOrders ?? false ? "chevron.up.square" : "chevron.down.square")
-        .foregroundColor(isDisplayingOrders != nil ? Color("G1") : .clear)
-        .font(.title)
-        .padding(), alignment: .leading
+        .overlay(
+            Image(systemName: "chevron.up.square")
+                .rotationEffect(isDisplayingOrders ?? false ? Angle(degrees: 0) : Angle(degrees: 180))
+                .animation(.easeInOut(duration: 0.5))
+                .foregroundColor(isDisplayingOrders != nil ? Color("G1") : .clear)
+                .font(.title)
+                .padding(), alignment: .leading
         )
         .foregroundColor(/*@START_MENU_TOKEN@*/Color("G1")/*@END_MENU_TOKEN@*/)
         .background(/*@START_MENU_TOKEN@*/Color("G4")/*@END_MENU_TOKEN@*/)
@@ -32,6 +35,6 @@ struct PageTitleView: View {
 
 struct PageTitleView_Previews: PreviewProvider {
     static var previews: some View {
-        PageTitleView(title: "Order Pizza")
+        PageTitleView(title: "Order Pizza", isDisplayingOrders: true)
     }
 }
