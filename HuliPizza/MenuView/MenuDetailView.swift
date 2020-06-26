@@ -9,8 +9,6 @@
 import SwiftUI
 ///A `View`for entering in an order. Takes basic information about the order from `menuItem`
 struct MenuDetailView: View {
-    let sizes: [Size] = [.small, .medium, .large]
-    
     @EnvironmentObject var settings: UserPreferences
     @ObservedObject var orderModel: OrderModel
     @State var didOrder = false
@@ -40,12 +38,7 @@ struct MenuDetailView: View {
                 .layoutPriority(3)
             
             Spacer()
-            Picker(selection: $settings.size, label: Text("Pizza Size")) {
-                ForEach(sizes, id: \.self) { size in
-                    Text(size.formatted()).tag(size)
-                }
-            }
-            .pickerStyle(SegmentedPickerStyle())
+            SizePickerView(size: $settings.size)
             /*
             HStack{
                 Spacer()
@@ -54,10 +47,7 @@ struct MenuDetailView: View {
             }
             .font(.headline)
              */
-            Stepper(value: $quantity, in: 1...10) {
-                Text("Quantity: \(quantity)")
-                    .bold()
-            }
+            QuantityStepperView(quantity: $quantity)
             /*
              HStack{
                 Text("Quantity:")
@@ -105,5 +95,31 @@ struct MenuDetailView: View {
 struct MenuDetailView_Previews: PreviewProvider {
     static var previews: some View {
         MenuDetailView(orderModel: OrderModel(), menuItem: testMenuItem)
+    }
+}
+
+struct QuantityStepperView: View {
+    @Binding var quantity: Int
+    
+    var body: some View {
+        Stepper(value: $quantity, in: 1...10) {
+            Text("Quantity: \(quantity)")
+                .bold()
+        }
+    }
+}
+
+struct SizePickerView: View {
+    @Binding var size: Size
+    
+    let sizes: [Size] = [.small, .medium, .large]
+    
+    var body: some View {
+        Picker(selection: $size, label: Text("Pizza Size")) {
+            ForEach(sizes, id: \.self) { size in
+                Text(size.formatted()).tag(size)
+            }
+        }
+        .pickerStyle(SegmentedPickerStyle())
     }
 }
